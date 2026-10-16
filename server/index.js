@@ -45,5 +45,5 @@ app.delete("/api/tareas/:id", (req, res) => {
 });
 
 app.listen(3001, () => {
-  console.log("API corriendo en http://localhost:3001");
+  console.log("API corriendo en https://tareas-backend-bo4x.onrender.com/api/tareas");
 });
